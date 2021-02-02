@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* header css */
+.fixed-width {
+	width: 1050px;
+	margin: auto;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    background: #3498db;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    width: 250px;
+    height: auto;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+    text-align: center;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 0 20px;
+	line-height: 76px;
+	/* border-right: 1px solid #ddd; */
+}
+.header-right ul li a:hover{
+    background: #2980b9;
+}
+/* banner css */
+.banener {
+	background-image: url(https://wowslider.com/sliders/demo-85/data1/images/mountains287618_1920.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 170px 0;
+	text-align: center;
+}
+.banner-text h1 {
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.banner-text h3 {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 50px;
+	/* display: inline-block; */
+	width: 1055px;
+}
+.banner-text button {
+	padding: 10px 15px;
+	border: 3px solid #2980b9;
+	background: #1abc9c;
+	border-radius: 5px;
+}
+.banner-text button a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+/* Service css */
+.our-survice{
+    text-align: center;
+    margin-top: 30px;
+}
+.survice-text h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.survice-text p {
+	color: rgba(0, 0, 0, .5);
+}
+/* container css */
+.container{
+    text-align: center;
+    margin-top: 70px;
+    border-bottom: 1px solid #2980b9;
+    padding-bottom: 50px;
+}
+.container-text .web{
+    width: 24%;
+    float: left;
+    margin-right: 10px;
+}
+.container-text .web span {
+	font-size: 30px;
+	color: #27ae60;
+}
+.container-text .web h2{
+    margin-top: 10px;
+}
+.container-text .web p{
+    margin-top: 5px;
+    color: rgba(0, 0, 0, .5);
+}
+/* aboute */
+.aboute{
+    text-align: center;
+    margin-top: 70px;
+}
+.aboute-part h2{
+    margin-bottom: 20px;
+}
+.aboute-part p{
+    color:rgba(0, 0, 0, .6);
+}
+.image-div{
+    margin-top: 70px;
+}
+
+.img-tag img {
+	width: 40%;
+	height: auto;
+	float: left;
+	margin-right: 40px;
+}
+.img-header h3 {
+	margin-bottom: 10px;
+	color: rgba(0, 0, 0, .7);
+}
+.img-header p {
+	color: rgba(0, 0, 0, .5);
+	margin-bottom: 10px;
+}
+/* contact */
+.contact-div {
+	text-align: center;
+	background: #ddd;
+	padding: 50px 0;
+	margin-top: 90px;
+}
+.contuct-text h2{
+    color: rgba(0, 0, 0, .7);
+    font-size: 30px;
+}
+.contuct-text p {
+	margin-top: 10px;
+	color: rgba(0, 0, 0, .6);
+}
+/* location */
+.locetion{
+    margin-top: 50px;
+}
+.location-text{
+    width: 32.3%;
+    float: left;
+}
+.location-text span {
+	font-size: 25px;
+	color: #2ecc71;
+}
+.location-text p{}
+.social{
+    background: #3498db;
+}
+..social-manu{
+    text-align: center;
+}
+.social-manu ul{
+    text-align: center;
+}
+.social-manu ul li{
+    display: inline-block;
+    padding: 0 20px;
+    margin-left: -43px;
+}
+.social-manu ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 40px;
+	padding: 0px 20px;
+	line-height: 85px;
+	/* border-right: 1px solid #ddd; */
+}
+.social-manu ul li a:hover{
+    background: #16a085;
+}
+/* footer */
+.footer{
+    background: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding: 15px 0;
+}
+.footer-div p{
+    color: #fff;
+}
